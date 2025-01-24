@@ -6,10 +6,19 @@
 * BASE
 /* ------------------------------- */
 
-html{
-  scroll-behavior: smooth;
+html {
+	scroll-behavior: smooth;
 }
 
-body{
-  @apply bg-zinc-900 text-zinc-50 h-[200vh];
+body {
+	@apply bg-zinc-900 text-zinc-50 h-[200vh];
+}
+
+/* ------------------------------- */
+* COMPONENTS
+/* ------------------------------- */
+
+/* Menu btn */
+.menu-btn {
+	@apply w-10 h-10 grid place-items-center bg-zinc-50/10 rounded-xl ring-inset ring-1 ring-zinc-50/[0.02] backdrop-blur-2xl transition-[transform,background-color] hover:bg-zinc-50/15 active:scale-95;
 }
